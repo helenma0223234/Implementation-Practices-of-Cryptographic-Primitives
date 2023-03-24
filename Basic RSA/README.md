@@ -14,7 +14,8 @@ The program should:
 
 ## sample output
 
-`read 3432 primes 
+```
+read 3432 primes 
 Enter indices for two primes:
 1254
 2001
@@ -30,4 +31,4 @@ Enter message:
 c = m^e mod n = 100004567
 c^d mod n = 234
 Enter message: 
-`
+```
