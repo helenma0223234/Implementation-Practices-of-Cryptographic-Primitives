@@ -9,9 +9,11 @@ Used openssl on the command line:
 - extract the public key as public.pem
 
 Command used: 
-`openssl genrsa -out key.pem 1024
+```
+openssl genrsa -out key.pem 1024
 openssl rsa -text -in key.pem
-openssl rsa -in key.pem -out public.pem -pubout`
+openssl rsa -in key.pem -out public.pem -pubout
+```
 
 ## what the Code does (in output)
 
